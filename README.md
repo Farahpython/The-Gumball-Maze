@@ -1,19 +1,19 @@
 *This activity has been created as part of the 42 curriculum by lalomari, fadarwis.*
 
-# Pac-Man
+# The A-MAZE-ING MAZE OF GUMBALL
 
 ## Description
 This project is a Pac-Man-inspired game built in Python using object-oriented programming and Pygame. The game features a custom maze generated using the `A-Maze-ing` package assigned to us, used as-is through an adapter (`Maze` class) that exposes the operations the rest of the game needs, such as checking walls and computing neighbors.
 
 Four ghosts, each with its own behaviour and targeting strategy:
 
-**Blinky:** Chases Pac-Man's current position.
+**Blinky:** Chases Gumball's current position.
 
-**Pinky:** Targets the position four cells ahead of Pac-Man in the direction they are facing.
+**Pinky:** Targets the position four cells ahead of Gumball in the direction they are facing.
 
 **Inky:** Uses a combination of chasing and random movement (mostly chases the player).
 
-**Clyde:** Chases Pac-Man when far away and returns to his starting position when he gets too close.
+**Clyde:** Chases Gumball when far away and returns to his starting position when he gets too close.
 
 Each character (the player and all four ghosts) uses custom artwork rather than the original Pac-Man, though their behavior follows the classic game's logic.
 
